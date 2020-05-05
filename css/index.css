@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li,p{
+    list-style: none
+}
+a{
+    text-decoration:none !important;
+}
+.container{
+    width: 930px;
+    height: 640px;
+    border: solid 3px rgb(241, 180, 122);
+    border-radius: 30px;
+    margin:  auto;
+}
+.info{
+    float: left;
+    width: 260px;
+    height: 640px;
+    background-color: rgb(248, 208, 170);
+    border-radius:26px 0px 0px 26px ;
+}
+.info1{
+    width: 260px;
+    height: 270px;
+    float: left;
+}
+.pic{
+    width: 210px;
+    height: 210px;
+    margin:10px auto ;
+    border-radius:105px ;
+    border: solid 1.5px  rgb(241, 180, 122);
+}
+.picin{
+    width: 210px;
+    height: 210px;
+    border-radius:105px ;
+}
+.info1-name{
+    width: 260px;
+    height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.info2{
+    float: left;
+    width:260px ;
+    margin-top: 5px;
+}
+.info2-basic{
+    /* float: left; */
+    width: 210px;
+    height: 38px;
+    background-color:  rgb(241, 180, 122);
+    border-radius: 20px;
+    margin: 5px auto;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    color: #fff;
+}
+.info2-con{
+    width: 220px;
+    margin: 0 auto;
+}
+.info2-text{
+    font-size: 14px;
+    width: 220px;
+    text-align: left;
+    padding-top: 3px;
+    padding-left: 45px;
+    font-weight: bold;
+}
+.right{
+    float: right;
+    width: 670px;
+    height: 640px;
+}
+.home-list{
+    width:600px ;
+    margin: 10px auto 0px auto;
+
+}
+.homeEduTitle{
+    width: 600px;
+    height: 38px;
+    border-bottom: solid 1.5px  rgb(241, 180, 122); 
+}
+.icon{
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin-left: 10px;
+}
+.linke{
+    display: block;
+    height: 38px;
+    width: 120px;
+    font-size: 18px;
+    font-style: normal;
+    color:  rgb(241, 180, 122);
+    font-weight:bold ;
+    margin: auto;
+    text-align: center;
+    line-height: 38px;
+    border-radius:20px 20px 0px 0px;   
+}
+.linke:hover{
+    background-color:  rgb(241, 180, 122);
+    color: #fff;
+}
+.text{
+    width: 600px;
+    margin-top: 8px;
+}
+.text p{
+    height: 25px;
+    font-size: 16px;
+    line-height: 25px;
+    padding-left: 25px;
+    font-family: STXinwei;
+
+}

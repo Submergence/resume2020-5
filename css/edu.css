@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li,p{
+    list-style: none
+}
+a{
+    text-decoration:none !important;
+}
+.container{
+    width: 930px;
+    height: 640px;
+    border: solid 3px  rgb(241, 180, 122);
+    border-radius: 30px;
+    margin:  auto;
+}
+.info{
+    float: left;
+    width: 260px;
+    height: 640px;
+    background-color: rgb(248, 208, 170);
+    border-radius:26px 0px 0px 26px ;
+}
+.info1{
+    width: 260px;
+    height: 270px;
+    float: left;
+}
+.pic{
+    width: 210px;
+    height: 210px;
+    margin:10px auto ;
+    border-radius:105px ;
+    border: solid 1.5px  rgb(241, 180, 122);
+}
+.picin{
+    width: 210px;
+    height: 210px;
+    border-radius:105px ;
+}
+.info1-name{
+    width: 260px;
+    height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.info2{
+    float: left;
+    width:260px ;
+    margin-top: 5px;
+}
+.info2-basic{
+    width: 210px;
+    height: 38px;
+    background-color:  rgb(241, 180, 122);
+    border-radius: 20px;
+    margin: 5px auto;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    color: #fff;
+}
+.info2-con{
+    width: 220px;
+    margin: 0 auto;
+}
+.info2-text{
+    font-size: 14px;
+    width: 220px;
+    text-align: left;
+    padding-top: 3px;
+    padding-left: 45px;
+    font-weight: bold;
+}
+.right{
+    float: right;
+    width: 670px;
+    height: 640px;
+}
+.navbar{
+    margin: 10px auto 0px auto;
+    width: 600px;
+    height: 35px;
+    /* background-color: red; */
+}
+.navbar ul{
+    float: left;
+    width: 600px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ul li{
+    float: left;
+    width: 95px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    background-color:  rgb(241, 180, 122);
+    /* border:solid 1px #fff; */
+    border-radius: 15px;
+}
+ul li a{
+    float: left;
+    width: 95px;
+    height: 35px;
+    color: #fff;
+}
+
+a:hover{
+    color: #000;
+}
+
+.edushow{
+    margin: 10px auto;
+    width: 600px;
+}
+.title{
+    width: 600px;
+    height: 45px;
+    border-bottom: solid 1.5px  rgb(241, 180, 122);
+    text-align: center;
+    line-height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(241, 180, 122);
+}
+.school1{
+    float: left;
+    width: 600px;
+    margin:13px auto 0px auto;
+}
+.edushow img{
+    float: left;
+    width: 240px;
+    height: 145px;
+
+}
+.text{
+    float: left;
+    margin-left: 15px;
+    width: 345px;
+    text-indent: 2em;
+    font-family: STXinwei;
+    font-size: 18px;
+}
